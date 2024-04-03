@@ -39,13 +39,58 @@
         </div>
     </div>
 
+    <div class="mobile-menu for-mobile">
+        <section class="header">
+        
+                <div class="headers">
+                    <div class="menu-list">
+                            <!-- Logo and navigation menu -->
+                            <div class="geeks">
+                                <div class="menu-desktop">
+                                    <div class="right-menu"></div>
+                                    <div class="left-menu">
+                                        <div class="logo">
+                                            <img src="images/logo.jpg" alt="">
+                                        </div>
+                                        <div class="phone-img">
+                                            <img src="images/m-img.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="hamburger-menu">
+                                    <input id="menu__toggle" type="checkbox" />
+                                    
+                                    <label class="menu__btn" for="menu__toggle">
+                                      <img src="images/menu.png" alt="">
+                                    </label>
+                                    <div class="menu__box">
+                                        <div class="mobile-main">
+                                            <ul>
+                                                <li><a href="#"><img src="images/transaction.png" alt="">Transactions</a></li>
+                                                <li><a href="#"><img src="images/token.png" alt="">Tokens</a></li>
+                                                <li><a href="#"><img src="images/daps.png" alt="">DApps</a></li>
+                                                <li><a href="#"><img src="images/chart.png" alt="">Charts & stats</a></li>
+                                                <li><a href="#"><img src="images/api.png" alt="">Api</a></li>
+                                                <li><a href="#"><img src="images/other.png" alt="">Other</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                 </div>					            
+                            </div>
+                        </div>
+                </div><!-- end header -->
+        
+        </section><!-- end top-header -->	
+        </div>
+
     <div class="container-all">
         <div class="menu">
             <div class="logo">
                 <img src="images/logo.jpg" alt="">
             </div>
             <ul>
-                <li><a href="#"><img src="images/transaction.png" alt="">Transactions</a></li>
+                <li><a href="txs.html"><img src="images/transaction.png" alt="">Transactions</a></li>
                 <li><a href="#"><img src="images/token.png" alt="">Tokens</a></li>
                 <li><a href="#"><img src="images/daps.png" alt="">DApps</a></li>
                 <li><a href="#"><img src="images/chart.png" alt="">Charts & stats</a></li>
@@ -60,7 +105,7 @@
                         placeholder="Search by address / txn hash / block / token... ">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </form>
-                <div>
+                <div class="dis-none">
                     <a href="#"><img src="images/right-btn.png" alt=""></a>
                 </div>
             </div>
@@ -68,7 +113,7 @@
                 <h2>Transaction details
                 </h2>
                <ul>
-                <li class="copy-text"><img src="images/tar-g.png" alt="" class="tar-w">0xbb3a47c88c392da0e28bf17eb91c95cc7c59309b8ff4cfe47a54e354c4b14022 <img src="images/icon-left.png" alt=""></li>
+                <li class="copy-text"><div><img src="images/tar-g.png" alt="" class="tar-w"></div><div class="hex-string2">0xbb3a47c88c392da0e28bf17eb91c95cc7c59309b8ff4cfe47a54e354c4b14022</div> <div><img src="images/icon-left.png" alt=""></div></li>
                </ul>
 
                <ul class="list-nav">
@@ -83,7 +128,7 @@
 
                <div class="tar-col">
                     <div class="tar-col-left"><img src="images/exclo.png" alt="" class="img-w">Transaction hash</div>
-                    <div class="tar-col-right">0xbb3a47c88c392da0e28bf17eb91c95cc7c59309b8ff4cfe47a54e354c4b1402 <img src="images/copy.png" alt=""  class="img-w"></div>
+                    <div class="tar-col-right"><p class="hex-string2">0xbb3a47c88c392da0e28bf17eb91c95cc7c59309b8ff4cfe47a54e354c4b1402</p> <div><img src="images/copy.png" alt=""  class="img-w"></div></div>
                </div>
                <div class="tar-col">
                     <div class="tar-col-left"><img src="images/exclo.png" alt="" class="img-w">Status and method</div>
@@ -103,12 +148,12 @@
                </div>
                <div class="tar-col">
                     <div class="tar-col-left"><img src="images/exclo.png" alt="" class="img-w">Sponsored</div>
-                    <div class="tar-col-right"><img src="images/banner2.png" alt=""></div>
+                    <div class="tar-col-right"><img src="images/banner2.png" alt="" class="img-100"></div>
                 </div>
 
                <div class="tar-col">
                     <div class="tar-col-left"><img src="images/exclo.png" alt="" class="img-w">From</div>
-                    <div class="tar-col-right"><div class="paper" style="border-radius: 50px; display: inline-block; margin: 0px; overflow: hidden; padding: 0px; background-color: rgb(243, 182, 0); height: 20px; width: 20px;"><svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" height="20" width="20"><rect x="0" y="0" rx="0" ry="0" height="20" width="20" transform="translate(3.800173789575966 2.5530216100990573) rotate(206.2 10 10)" fill="#c71456"></rect><rect x="0" y="0" rx="0" ry="0" height="20" width="20" transform="translate(-9.69088038448051 -8.132491100756427) rotate(356.3 10 10)" fill="#018c89"></rect><rect x="0" y="0" rx="0" ry="0" height="20" width="20" transform="translate(17.49506939548422 1.9238988414189289) rotate(92.1 10 10)" fill="#03545d"></rect><rect x="0" y="0" rx="0" ry="0" height="20" width="20" transform="translate(13.968413048445983 -19.093706161882732) rotate(324.5 10 10)" fill="#f73201"></rect></svg></div><a href="#">0x95222290DD7278Aa3Ddd389Cc1E1d165CC4BAfe5</a> <img src="images/copy.png" alt="" class="img-w"></div>
+                    <div class="tar-col-right"><div class="paper" style="border-radius: 50px; display: inline-block; margin: 0px; overflow: hidden; padding: 0px; background-color: rgb(243, 182, 0); height: 20px; width: 20px;"><svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" height="20" width="20"><rect x="0" y="0" rx="0" ry="0" height="20" width="20" transform="translate(3.800173789575966 2.5530216100990573) rotate(206.2 10 10)" fill="#c71456"></rect><rect x="0" y="0" rx="0" ry="0" height="20" width="20" transform="translate(-9.69088038448051 -8.132491100756427) rotate(356.3 10 10)" fill="#018c89"></rect><rect x="0" y="0" rx="0" ry="0" height="20" width="20" transform="translate(17.49506939548422 1.9238988414189289) rotate(92.1 10 10)" fill="#03545d"></rect><rect x="0" y="0" rx="0" ry="0" height="20" width="20" transform="translate(13.968413048445983 -19.093706161882732) rotate(324.5 10 10)" fill="#f73201"></rect></svg></div><a href="#" class="hex-string2">0x95222290DD7278Aa3Ddd389Cc1E1d165CC4BAfe5</a> <img src="images/copy.png" alt="" class="img-w"></div>
                 </div>
                <div class="tar-col">
                     <div class="tar-col-left"><img src="images/exclo.png" alt="" class="img-w">Interacted with contract
